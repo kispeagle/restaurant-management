@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2022-06-22T08:50:04.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Yud5SJ_fOYORQnpa7Sbm" version="18.2.0" type="github">
+  <diagram id="PrGJMtJIO_58kvEwNgsd" name="Page-1">
+    <mxGraphModel dx="1138" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Food&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id Menu&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Price&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;created-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;updated-on&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="120" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ue5UHZWjUcVlfZC0Tfh5-58" target="ue5UHZWjUcVlfZC0Tfh5-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Menu&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Price&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;created-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;updated-on&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="310" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ue5UHZWjUcVlfZC0Tfh5-60" target="ue5UHZWjUcVlfZC0Tfh5-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Item Order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id Menu&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Unit&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;created-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;update-on&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ue5UHZWjUcVlfZC0Tfh5-61" target="ue5UHZWjUcVlfZC0Tfh5-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Item Order&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Total Unit&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;created-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;updated-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;created-by&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="120" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.418;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ue5UHZWjUcVlfZC0Tfh5-62" target="ue5UHZWjUcVlfZC0Tfh5-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Table&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id Order&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;No. customer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;created-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;updated-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Date&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="370" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ue5UHZWjUcVlfZC0Tfh5-63" target="ue5UHZWjUcVlfZC0Tfh5-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: User&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;email&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;password&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Price&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;created-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;updated-on&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;token&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="380" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ue5UHZWjUcVlfZC0Tfh5-69" target="ue5UHZWjUcVlfZC0Tfh5-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5UHZWjUcVlfZC0Tfh5-69" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object:Invoice&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Id Order&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Total&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;payment method&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;status&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="115" width="160" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
