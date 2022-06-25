@@ -99,3 +99,89 @@
 {"level":"info","timestamp":"2022-06-25T10:43:39+07:00","caller":"controllers/menuController.go:105","msg":"2022-06-25T05:03:28+07:00 - time.Date(2022, time.June, 25, 13, 9, 28, 0, time.Local) - \"2022-06-25T10:43:39+07:00\""}
 {"level":"info","timestamp":"2022-06-25T10:44:21+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
 {"level":"info","timestamp":"2022-06-25T10:44:23+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:44:57+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T10:44:59+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:46:19+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T13:53:54+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T13:54:14+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T13:58:23+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:02:25+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:05:39+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:14:30+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:15:22+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:15:25+07:00","caller":"controllers/foodController.go:29","msg":"get all foods"}
+{"level":"info","timestamp":"2022-06-25T14:17:35+07:00","caller":"controllers/foodController.go:29","msg":"get all foods"}
+{"level":"info","timestamp":"2022-06-25T14:18:21+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:21:20+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:22:28+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:23:34+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:25:05+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:32:11+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:33:26+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:33:31+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:33:42+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:33:44+07:00","caller":"controllers/foodController.go:29","msg":"get all foods"}
+{"level":"info","timestamp":"2022-06-25T14:34:04+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:34:27+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:34:56+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:35:22+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:35:28+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:35:44+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:36:58+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:38:08+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:38:51+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:39:02+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:40:07+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:40:37+07:00","caller":"controllers/foodController.go:29","msg":"get all foods"}
+{"level":"info","timestamp":"2022-06-25T14:43:35+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:44:29+07:00","caller":"controllers/foodController.go:94","msg":"create food"}
+{"level":"info","timestamp":"2022-06-25T14:46:57+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:48:03+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:48:47+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:48:48+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T14:49:50+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:49:52+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T14:49:52+07:00","caller":"controllers/orderItemController.go:38","msg":"&{ 0xc000534000 <nil> 0 0xc0003ab3b0 0xc0004a2680 <nil>}"}
+{"level":"info","timestamp":"2022-06-25T14:50:28+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:50:36+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T14:50:36+07:00","caller":"controllers/orderItemController.go:38","msg":"&{ 0xc00013a1c0 <nil> 0 0xc0004b8460 0xc0000a65b0 <nil>}"}
+{"level":"info","timestamp":"2022-06-25T14:50:51+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T14:50:54+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T14:50:54+07:00","caller":"controllers/orderItemController.go:38","msg":"&{ 0xc00012c000 <nil> 0 0xc0003e93b0 0xc0004205b0 <nil>}"}
+{"level":"info","timestamp":"2022-06-25T16:31:27+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T16:51:26+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T16:52:09+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:18:20+07:00","caller":"controllers/foodController.go:29","msg":"get all foods"}
+{"level":"info","timestamp":"2022-06-25T17:19:01+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:19:28+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:20:06+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:20:08+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T17:23:23+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:23:25+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T17:25:45+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:27:08+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:27:56+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:29:19+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T17:31:14+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:31:37+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:42:47+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T17:43:48+07:00","caller":"controllers/orderItemController.go:28","msg":"get all order item"}
+{"level":"info","timestamp":"2022-06-25T17:46:03+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:49:04+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:50:58+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T17:52:34+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:09:56+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:11:21+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:13:00+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:13:02+07:00","caller":"controllers/invoiceController.go:57","msg":"62b6ed3dcd45856569ad5356"}
+{"level":"info","timestamp":"2022-06-25T18:13:33+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:13:36+07:00","caller":"controllers/invoiceController.go:57","msg":"62b6ed3dcd45856569ad5356"}
+{"level":"info","timestamp":"2022-06-25T18:14:36+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:14:39+07:00","caller":"controllers/invoiceController.go:57","msg":"62b6ed3dcd45856569ad5356"}
+{"level":"info","timestamp":"2022-06-25T18:15:20+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:15:22+07:00","caller":"controllers/invoiceController.go:57","msg":"62b6ed3dcd45856569ad5356"}
+{"level":"info","timestamp":"2022-06-25T18:15:47+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:15:49+07:00","caller":"controllers/invoiceController.go:57","msg":"62b6ed3dcd45856569ad5356"}
+{"level":"info","timestamp":"2022-06-25T18:18:25+07:00","caller":"controllers/invoiceController.go:57","msg":"62b6ed07cd45856569ad5355"}
+{"level":"info","timestamp":"2022-06-25T18:18:31+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T18:18:33+07:00","caller":"controllers/invoiceController.go:57","msg":"62b6ed07cd45856569ad5355"}

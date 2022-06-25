@@ -7,6 +7,7 @@ import (
 	"math"
 	"net/http"
 	database "restaurant-management/databases"
+	"restaurant-management/logger"
 	"restaurant-management/models"
 	"strconv"
 	"time"
@@ -25,6 +26,7 @@ var validate = validator.New()
 
 func GetFoods() gin.HandlerFunc {
 	return func(c *gin.Context) {
+		logger.Logger.Info("get all foods")
 		ctx, cancel := context.WithTimeout(context.Background(), 100*time.Second)
 		defer cancel()
 
@@ -89,6 +91,7 @@ func GetFoodById() gin.HandlerFunc {
 
 func CreateFood() gin.HandlerFunc {
 	return func(c *gin.Context) {
+		logger.Logger.Info("create food")
 		context, cancel := context.WithTimeout(context.Background(), 100*time.Second)
 		defer cancel()
 		var menu models.Menu
@@ -104,7 +107,7 @@ func CreateFood() gin.HandlerFunc {
 			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 			return
 		}
-		err = menuCollection.FindOne(context, bson.M{"menu_id": food.MenuId}).Decode(&menu)
+		err = menuCollection.FindOne(context, bson.M{"menu_id": food.Menu_id}).Decode(&menu)
 		if err != nil {
 			msg := fmt.Sprintf("menu was not found")
 			c.JSON(http.StatusInternalServerError, gin.H{"error": msg})
@@ -113,9 +116,7 @@ func CreateFood() gin.HandlerFunc {
 		food.Created_at, _ = time.Parse(time.RFC3339, time.Now().Format(time.RFC3339))
 		food.Updated_at, _ = time.Parse(time.RFC3339, time.Now().Format(time.RFC3339))
 		food.ID = primitive.NewObjectID()
-		food.FoodId = food.ID.Hex()
-		var fixedPrice = toFixed(*food.Price, 2)
-		food.Price = &fixedPrice
+		food.Food_id = food.ID.Hex()
 
 		result, insertErr := foodCollection.InsertOne(context, food)
 		if insertErr != nil {
@@ -154,21 +155,17 @@ func UpdateFood() gin.HandlerFunc {
 			updateObj = append(updateObj, bson.E{"name", food.Name})
 		}
 
-		if food.Price != nil {
-			updateObj = append(updateObj, bson.E{"price", food.Price})
+		if food.Food_image != nil {
+			updateObj = append(updateObj, bson.E{"food_image", food.Food_image})
 		}
 
-		if food.FoodImage != nil {
-			updateObj = append(updateObj, bson.E{"food_image", food.FoodImage})
-		}
-
-		if food.MenuId != nil {
-			err := menuCollection.FindOne(ctx, bson.M{"menu_id": food.MenuId}).Decode(&menu)
+		if food.Menu_id != nil {
+			err := menuCollection.FindOne(ctx, bson.M{"menu_id": food.Menu_id}).Decode(&menu)
 			if err != nil {
 				c.JSON(http.StatusInternalServerError, gin.H{"error": "Menu was not found"})
 				return
 			}
-			updateObj = append(updateObj, bson.E{"menu_id", food.MenuId})
+			updateObj = append(updateObj, bson.E{"menu_id", food.Menu_id})
 		}
 
 		food.Updated_at, _ = time.Parse(time.RFC3339, time.Now().Format(time.RFC3339))

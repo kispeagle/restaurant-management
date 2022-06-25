@@ -5,6 +5,7 @@ import (
 	"log"
 	"net/http"
 	database "restaurant-management/databases"
+	"restaurant-management/logger"
 	"restaurant-management/models"
 	"time"
 
@@ -53,22 +54,23 @@ func GetInvoiceById() gin.HandlerFunc {
 		defer cancel()
 
 		invoiceId := c.Param("invoice_id")
+		logger.Logger.Info(invoiceId)
 		var invoice models.Invoice
-		err := invoiceCollection.FindOne(ctx, bson.M{"invoice_dd": invoiceId}).Decode(&invoice)
+		err := invoiceCollection.FindOne(ctx, bson.M{"invoice_id": invoiceId}).Decode(&invoice)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			return
 		}
 		var _invoiceView invoiceView
 
-		allOrderItem, err := ItemsByOrder(invoice.OrderId)
-		_invoiceView.Invoice_id = invoice.InvoiceId
+		allOrderItem, err := ItemsByOrder(invoice.Order_id)
+		_invoiceView.Invoice_id = invoice.Invoice_id
 		_invoiceView.Paymen_due_date = invoice.Payment_due_date
 		_invoiceView.Payment_method = "null"
 		if invoice.Payment_method != nil {
 			_invoiceView.Payment_method = *invoice.Payment_method
 		}
-		_invoiceView.Invoice_id = invoice.InvoiceId
+		_invoiceView.Invoice_id = invoice.Invoice_id
 		_invoiceView.Payment_status = *invoice.Payment_status
 		_invoiceView.Payment_due = allOrderItem[0]["payment_due"]
 		_invoiceView.Table_number = allOrderItem[0]["table_number"]
@@ -91,7 +93,7 @@ func CreateInvoice() gin.HandlerFunc {
 		}
 
 		var order models.Order
-		err = orderCollection.FindOne(ctx, bson.M{"orderId": invoice.OrderId}).Decode(&order)
+		err = orderCollection.FindOne(ctx, bson.M{"order_id": invoice.Order_id}).Decode(&order)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "order id was not found"})
 			return
@@ -110,7 +112,7 @@ func CreateInvoice() gin.HandlerFunc {
 		invoice.Created_at, _ = time.Parse(time.RFC3339, time.Now().Format(time.RFC3339))
 		invoice.Updated_at, _ = time.Parse(time.RFC3339, time.Now().Format(time.RFC3339))
 		invoice.ID = primitive.NewObjectID()
-		invoice.InvoiceId = invoice.ID.Hex()
+		invoice.Invoice_id = invoice.ID.Hex()
 
 		rs, insertError := invoiceCollection.InsertOne(ctx, invoice)
 		if insertError != nil {
