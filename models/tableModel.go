@@ -7,10 +7,10 @@ import (
 )
 
 type Table struct {
-	ID             primitive.ObjectID `bson:"_id"`
-	NumberOfGuests *int               `json:"numberOfGuests" validate:"required"`
-	TableNumber    *int               `json:"tableNumber" validate:"required"`
-	CreatedAt      time.Time          `json:"createdAt"`
-	UpdatedAt      time.Time          `json:"UpdatedAt"`
-	TableId        *int               `json:"tableId"`
+	ID               primitive.ObjectID `bson:"_id"`
+	Number_of_guests *int               `json:"number_of_guests" validate:"required"`
+	Table_number     *int               `json:"table_number" validate:"required"`
+	Created_at       time.Time          `json:"created_at"`
+	Updated_at       time.Time          `json:"Updated_at"`
+	Table_id         string             `json:"table_id"`
 }

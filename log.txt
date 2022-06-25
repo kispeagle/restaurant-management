@@ -1,0 +1,101 @@
+{"level":"info","timestamp":"2022-06-25T05:17:34+07:00","caller":"restaurant-management/main.go:15","msg":"helo"}
+{"level":"info","timestamp":"2022-06-25T05:19:37+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:20:31+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:21:07+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:21:35+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:22:09+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:23:44+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:26:06+07:00","caller":"controllers/userController.go:162","msg":"login"}
+{"level":"info","timestamp":"2022-06-25T05:27:00+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T05:27:59+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T05:28:04+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T05:28:35+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T05:29:47+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:29:59+07:00","caller":"controllers/userController.go:162","msg":"login"}
+{"level":"info","timestamp":"2022-06-25T05:31:42+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:31:45+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:31:49+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:31:58+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:35:38+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:35:40+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:35:57+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:36:03+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:36:03+07:00","caller":"controllers/userController.go:58","msg":"&{ 0xc0004b6000 <nil> 1 0xc0003ab3b0 0xc00050c680 <nil>}"}
+{"level":"info","timestamp":"2022-06-25T05:36:22+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:36:24+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:36:24+07:00","caller":"controllers/userController.go:58","msg":"&{ 0xc000542000 <nil> 1 0xc000470460 0xc0005105b0 <nil>}"}
+{"level":"info","timestamp":"2022-06-25T05:38:56+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:38:58+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:38:59+07:00","caller":"controllers/userController.go:58","msg":"&mongo.Cursor{Current:bson.Raw(nil), bc:(*driver.BatchCursor)(0xc000606000), batch:(*bsoncore.DocumentSequence)(nil), batchLength:1, registry:(*bsoncodec.Registry)(0xc000470460), clientSession:(*session.Client)(0xc0003d64e0), err:error(nil)}"}
+{"level":"info","timestamp":"2022-06-25T05:39:33+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:39:38+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:40:32+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:40:34+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T05:40:34+07:00","caller":"controllers/userController.go:65","msg":"[]primitive.M{primitive.M{\"userItems\":interface {}(nil)}}"}
+{"level":"info","timestamp":"2022-06-25T05:44:17+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:46:46+07:00","caller":"controllers/userController.go:94","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T05:48:34+07:00","caller":"controllers/userController.go:94","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T05:49:01+07:00","caller":"controllers/userController.go:163","msg":"login"}
+{"level":"info","timestamp":"2022-06-25T05:52:37+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T05:52:41+07:00","caller":"controllers/userController.go:94","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T05:52:59+07:00","caller":"controllers/userController.go:94","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T06:17:31+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T06:17:35+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T06:17:36+07:00","caller":"controllers/userController.go:65","msg":"[]primitive.M{primitive.M{\"userItems\":interface {}(nil)}, primitive.M{\"userItems\":interface {}(nil)}}"}
+{"level":"info","timestamp":"2022-06-25T06:18:03+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T06:26:55+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T06:26:59+07:00","caller":"controllers/userController.go:25","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T06:28:00+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T06:36:37+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T06:36:39+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T06:37:15+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T06:37:17+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T06:37:43+07:00","caller":"restaurant-management/main.go:15","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T06:37:46+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T06:37:46+07:00","caller":"controllers/userController.go:42","msg":"0 10"}
+{"level":"info","timestamp":"2022-06-25T06:54:54+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T07:08:30+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T08:23:23+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T08:23:47+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T08:25:00+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T08:25:33+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T08:26:07+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T08:39:47+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T08:40:07+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T08:40:28+07:00","caller":"controllers/userController.go:162","msg":"login"}
+{"level":"info","timestamp":"2022-06-25T08:40:37+07:00","caller":"controllers/userController.go:162","msg":"login"}
+{"level":"info","timestamp":"2022-06-25T08:40:56+07:00","caller":"controllers/userController.go:26","msg":"Get information of all users"}
+{"level":"info","timestamp":"2022-06-25T08:41:57+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T08:42:19+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T08:42:27+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T08:54:57+07:00","caller":"controllers/userController.go:93","msg":"signup"}
+{"level":"info","timestamp":"2022-06-25T08:56:21+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T09:09:27+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T09:15:03+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T09:17:34+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T09:17:37+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T09:47:12+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:02:13+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T10:02:15+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:04:24+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:05:28+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T10:05:33+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:05:33+07:00","caller":"controllers/menuController.go:105","msg":"time.Date(2022, time.June, 25, 10, 9, 28, 0, time.Local) - time.Date(2022, time.June, 25, 12, 9, 28, 0, time.Local) - time.Date(2022, time.June, 25, 10, 5, 33, 57507800, time.Local)"}
+{"level":"info","timestamp":"2022-06-25T10:06:25+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:06:25+07:00","caller":"controllers/menuController.go:105","msg":"time.Date(2022, time.June, 25, 10, 3, 28, 0, time.Local) - time.Date(2022, time.June, 25, 12, 9, 28, 0, time.Local) - time.Date(2022, time.June, 25, 10, 6, 25, 140855600, time.Local)"}
+{"level":"info","timestamp":"2022-06-25T10:40:52+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:40:52+07:00","caller":"controllers/menuController.go:105","msg":"time.Date(2022, time.June, 25, 10, 3, 28, 0, time.Location(\"\")) - time.Date(2022, time.June, 25, 12, 9, 28, 0, time.Location(\"\")) - time.Date(2022, time.June, 25, 10, 40, 52, 399286400, time.Local)"}
+{"level":"info","timestamp":"2022-06-25T10:41:03+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:41:03+07:00","caller":"controllers/menuController.go:105","msg":"time.Date(2022, time.June, 25, 10, 3, 28, 0, time.Location(\"\")) - time.Date(2022, time.June, 25, 13, 9, 28, 0, time.Location(\"\")) - time.Date(2022, time.June, 25, 10, 41, 3, 911627600, time.Local)"}
+{"level":"info","timestamp":"2022-06-25T10:41:12+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:41:12+07:00","caller":"controllers/menuController.go:105","msg":"time.Date(2022, time.June, 25, 5, 3, 28, 0, time.Location(\"\")) - time.Date(2022, time.June, 25, 13, 9, 28, 0, time.Location(\"\")) - time.Date(2022, time.June, 25, 10, 41, 12, 650510200, time.Local)"}
+{"level":"info","timestamp":"2022-06-25T10:41:58+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T10:42:00+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:42:00+07:00","caller":"controllers/menuController.go:105","msg":"2022-06-25T05:03:28Z - time.Date(2022, time.June, 25, 13, 9, 28, 0, time.Location(\"\")) - time.Date(2022, time.June, 25, 10, 42, 0, 664692100, time.Local)"}
+{"level":"info","timestamp":"2022-06-25T10:42:51+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:42:51+07:00","caller":"controllers/menuController.go:105","msg":"2022-06-25T05:03:28+07:00 - time.Date(2022, time.June, 25, 13, 9, 28, 0, time.Local) - time.Date(2022, time.June, 25, 10, 42, 51, 483633600, time.Local)"}
+{"level":"info","timestamp":"2022-06-25T10:43:37+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T10:43:39+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}
+{"level":"info","timestamp":"2022-06-25T10:43:39+07:00","caller":"controllers/menuController.go:105","msg":"2022-06-25T05:03:28+07:00 - time.Date(2022, time.June, 25, 13, 9, 28, 0, time.Local) - \"2022-06-25T10:43:39+07:00\""}
+{"level":"info","timestamp":"2022-06-25T10:44:21+07:00","caller":"restaurant-management/main.go:16","msg":"===== START SERVER ====="}
+{"level":"info","timestamp":"2022-06-25T10:44:23+07:00","caller":"controllers/menuController.go:94","msg":"models.Menu{ID:primitive.ObjectID{0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}, Name:\"\", Category:\"\", Start_date:<nil>, End_date:<nil>, Created_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Updated_at:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Menu_id:\"\"}"}

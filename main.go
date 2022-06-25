@@ -4,12 +4,17 @@ import (
 	"fmt"
 	"os"
 
+	"restaurant-management/logger"
+	"restaurant-management/middleware"
 	"restaurant-management/routes"
 
 	"github.com/gin-gonic/gin"
 )
 
 func main() {
+	logger.GetCustomProductionLogger()
+	logger.Logger.Info("===== START SERVER =====")
+
 	PORT := os.Getenv("PORT")
 	fmt.Println(PORT)
 
@@ -20,7 +25,7 @@ func main() {
 	router := gin.New()
 	router.Use(gin.Logger())
 	routes.UserRoutes(router)
-	// router.Use(middleware.Authentication())
+	router.Use(middleware.Authentication())
 
 	routes.FoodRoutes(router)
 	routes.MenuRoutes(router)
@@ -29,6 +34,6 @@ func main() {
 	routes.OrderRoutes(router)
 	routes.TableRoutes(router)
 
-	router.Run(":" + PORT)
+	router.Run("localhost:" + PORT)
 
 }
